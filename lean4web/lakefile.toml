@@ -1,0 +1,11 @@
+name = "erdos979_lean4web_latest"
+version = "0.1.0"
+defaultTargets = ["Erdos979Lean4WebLatest"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "5399e3ba518fba5350f046f7520539478e2fdb28"
+
+[[lean_lib]]
+name = "Erdos979Lean4WebLatest"

@@ -1,0 +1,6 @@
+.DS_Store
+.lake
+.lake/
+lake-packages/
+*.log
+.check.log
