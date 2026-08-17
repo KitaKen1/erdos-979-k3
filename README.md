@@ -2,6 +2,9 @@
 
 This repository formalizes a complete solution to the `k = 3` target registered in
 [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures/blob/b2e608fc52d765510915a244bb69b1a2741acc3c/FormalConjectures/ErdosProblems/979.lean).
+
+Try it in Lean4Web: [Open the standalone proof in Lean4Web](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Ferdos-979-k3%2Frefs%2Fheads%2Fmain%2Flean4web%2FErdos979Lean4WebLatest.lean)
+
 If `f₃(n)` counts the representations of `n` as a sum of three prime cubes, then
 
 ```text
@@ -11,9 +14,8 @@ limsup f₃(n) = ∞.
 Equivalently, there are integers with arbitrarily many representations as a sum of three
 prime cubes.
 
-**Try it in Lean4Web:**
-[open the latest standalone proof](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Ferdos-979-k3%2Frefs%2Fheads%2Fmain%2Flean4web%2FErdos979Lean4WebLatest.lean).
-The file is about 25,700 lines, so checking it locally with `lake build` is usually faster.
+The standalone file is about 25,700 lines, so checking it locally with `lake build` is usually
+faster.
 
 This solves the exact `k = 3` statement in Formal Conjectures. It does **not** address the
 other `k` variants of [Erdős Problem 979](https://www.erdosproblems.com/979), or give a
