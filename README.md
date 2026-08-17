@@ -11,10 +11,9 @@ limsup f₃(n) = ∞.
 Equivalently, there are integers with arbitrarily many representations as a sum of three
 prime cubes.
 
-**Try it in Lean4Web:** paste the
-[latest standalone proof](lean4web/Erdos979Lean4WebLatest.lean) into the
-[Lean 4 web editor](https://live.lean-lang.org/). The file is about 25,700 lines, so checking
-it locally with `lake build` is usually faster.
+**Try it in Lean4Web:**
+[open the latest standalone proof](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Ferdos-979-k3%2Frefs%2Fheads%2Fmain%2Flean4web%2FErdos979Lean4WebLatest.lean).
+The file is about 25,700 lines, so checking it locally with `lake build` is usually faster.
 
 This solves the exact `k = 3` statement in Formal Conjectures. It does **not** address the
 other `k` variants of [Erdős Problem 979](https://www.erdosproblems.com/979), or give a
