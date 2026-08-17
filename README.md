@@ -14,9 +14,6 @@ limsup f₃(n) = ∞.
 Equivalently, there are integers with arbitrarily many representations as a sum of three
 prime cubes.
 
-The standalone file is about 25,700 lines, so checking it locally with `lake build` is usually
-faster.
-
 This solves the exact `k = 3` statement in Formal Conjectures. It does **not** address the
 other `k` variants of [Erdős Problem 979](https://www.erdosproblems.com/979), or give a
 quantitative growth rate for `f₃`.
